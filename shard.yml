@@ -1,0 +1,21 @@
+name: jackal
+version: 0.1.0
+
+authors:
+  - dlinch <dlinch33@gmail.com>
+
+targets:
+  jackal:
+    main: src/jackal.cr
+
+crystal: 0.24.2
+
+license: MIT
+
+dependencies:
+  lucky:
+    github: luckyframework/lucky
+    version: "~> 0.8.0"
+  lucky_migrator:
+    github: luckyframework/lucky_migrator
+    version: "~> 0.4.0"
